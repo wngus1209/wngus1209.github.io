@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ecc0ce3a39.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/logo.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
+    <script src="jq/jquery-3.6.1.min.js"></script>
+    <script src="jq/jquery-ui.js"></script>
+    <script src="jq/jquery.bxslider.js"></script>
+    <script src="jq/script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="top">
+          <div class="top_menu">
+            <div class="trans">
+              <ul>
+                <li>
+                  <span>
+                    환율보기 <img src="images/2.jpg" alt="KRW" /> &nbsp;KRW ▼
+                  </span>
+                  <ul>
+                    <li>
+                      <p><img src="images/3.jpg" alt="JPY" /> JPY 184.32 ▼</p>
+                      <p><img src="images/4.jpg" alt="CNY" /> CNY 952.99 ▲</p>
+                      <p><img src="images/5.jpg" alt="EUR" /> EUR 1,358.14 ▼</p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="top">
+              <ul>
+                <li><a href="../subpage2/sub2.html">로그인 &nbsp;</a></li>
+                <li><a href="#"> &nbsp;회원가입&nbsp; </a></li>
+                <li><a href="#"> &nbsp;고객센터</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--top menu end-->
+
+          <div id="logo">
+            <div class="logo_left">
+              <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="logo" /></a>
+              </div>
+              <div class="search">
+                <input
+                  type="search"
+                  placeholder="여행지, 숙박, 교통 등으로 검색"
+                />
+                <span
+                  ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a
+                ></span>
+              </div>
+              <div class="search_right">
+                <ul>
+                  <li>
+                    <span class="best">BEST</span>&nbsp;<span class="best_out"
+                      >방콕</span
+                    >
+                  </li>
+                  <li>
+                    <span class="best">BEST</span>&nbsp;<span class="best_out"
+                      >싱가포르</span
+                    >
+                  </li>
+                  <li>
+                    <span class="best">BEST</span>&nbsp;<span class="best_out"
+                      >일본</span
+                    >
+                  </li>
+                  <li>
+                    <span class="best">BEST</span>&nbsp;<span class="best_out"
+                      >중국</span
+                    >
+                  </li>
+                  <li>
+                    <span class="best">BEST</span>&nbsp;<span class="best_out"
+                      >베트남</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="my">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa-regular fa-user"></i><span>내정보</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-gift"></i><span>이벤트</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-regular fa-heart"></i><span>찜목록</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--logo end-->
+
+        <p class="line"></p>
+        <div id="gnb">
+          <nav>
+            <div class="wrap">
+              <div class="gnb_wrap">
+                <ul class="gnb">
+                  <li><a href="#">국내여행</a></li>
+                  <li><a href="#">해외여행</a></li>
+                  <li><a href="#">테마여행</a></li>
+                  <li><a href="#">호텔예약</a></li>
+                  <li><a href="#">항공</a></li>
+                  <li><a href="#">프로모션</a></li>
+                </ul>
+                <div class="menu">
+                  <ul class="all_menu">
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-bars"
+                          ><span>전체메뉴</span></i
+                        ></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="sub">
+                  <div class="lnb_wrap">
+                    <ul class="lnb">
+                      <li>
+                        <ul>
+                          <li><a href="#">제주패키지</a></li>
+                          <li><a href="#">남해여행</a></li>
+                          <li><a href="#">울릉도</a></li>
+                          <li><a href="#">버스/기차여행</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li><a href="#">동남아/방콕</a></li>
+                          <li><a href="#">일본/중국</a></li>
+                          <li><a href="#">유럽투어</a></li>
+                          <li><a href="#">괌/사이판/하와이</a></li>
+                          <li><a href="#">호주/뉴질랜드</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li><a href="#">허니문</a></li>
+                          <li><a href="#">개별여행</a></li>
+                          <li><a href="#">크루즈</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li><a href="#">해외호텔</a></li>
+                          <li><a href="#">국내호텔</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li><a href="#">해외항공</a></li>
+                          <li><a href="#">국내항공</a></li>
+                          <li><a href="#">공동구매항공권</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <ul>
+                          <li><a href="#">연말 특별 행사</a></li>
+                          <li><a href="#">오늘의 핫딜</a></li>
+                          <li><a href="#">제휴카드</a></li>
+                          <li><a href="#">그린 Rewards</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--gnb end-->
+      </header>
+      <!--header end-->
+
+      <section>
+        <p class="line_two"></p>
+        <div class="backco">
+          <div id="gallery_wrap">
+            <ul class="slide_gallery">
+              <li>
+                <a href="#"><img src="images/ba1.jpg" alt="사진1" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/ba2.jpg" alt="사진2" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/ba3.jpg" alt="사진3" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/ba4.jpg" alt="사진4" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/ba5.jpg" alt="사진5" /></a>
+              </li>
+            </ul>
+            <div id="cover"></div>
+          </div>
+          <!--gallery_left end-->
+
+          <div class="gallery_right">
+            <div class="select">
+              <div class="select_menu">
+                <span class="one">원하시는 여행</span
+                ><span class="two">을 검색해보세요</span>
+                <ul>
+                  <li><a href="#">여행지</a></li>
+                  <li><a href="#">호텔</a></li>
+                  <li><a href="#">항공</a></li>
+                </ul>
+              </div>
+              <div class="select_one">
+                <p>
+                  <input
+                    type="text"
+                    placeholder="여행지를 입력해주세요"
+                    id="place"
+                  />
+                </p>
+                <div class="date">
+                  <span id="dt">여행 시작일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  /><br />
+                  <span id="dt">여행 종료일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  />
+                  <br />
+                  <div class="trip_event">
+                    <div class="tumbs">
+                      <div class="tumbs_up">
+                        <i class="fa-solid fa-thumbs-up"></i
+                        ><span>추천 여행지</span>
+                      </div>
+                    </div>
+                    <div class="event">
+                      <div class="event_up">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <span>특가 여행지</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="trip_search">
+                    <span>여행지 검색하기</span>
+                  </div>
+                </div>
+              </div>
+              <div class="select_two">
+                <p>
+                  <input
+                    type="text"
+                    placeholder="여행지를 입력해주세요"
+                    id="place"
+                  />
+                </p>
+                <div class="date">
+                  <span id="dt">여행 시작일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  /><br />
+                  <span id="dt">여행 종료일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  />
+                  <br />
+                  <div id="member">
+                    <input
+                      type="text"
+                      name="stay"
+                      id="stay"
+                      placeholder="객실 수 입력 "
+                    />
+                    <input
+                      type="text"
+                      name="stay"
+                      id="stay"
+                      placeholder="인원 수 입력 "
+                    />
+                  </div>
+                  <div class="trip_search">
+                    <span>숙소 검색하기</span>
+                  </div>
+                </div>
+              </div>
+              <div class="select_three">
+                <div class="airline">
+                  <i class="fa-solid fa-plane"></i
+                  ><span id="airport"> 항공편 </span>
+                  <input type="radio" name="air" id="air" checked />
+                  <span> 왕복 </span>
+                  <input type="radio" name="air" id="air" />
+                  <span> 편도 </span>
+                </div>
+                <div class="move">
+                  <div class="start">
+                    <input
+                      type="text"
+                      name="start"
+                      id="start"
+                      placeholder="출발지 입력"
+                    />
+                  </div>
+                  <div class="alive">
+                    <input
+                      type="text"
+                      name="alive"
+                      id="alive"
+                      placeholder="도착지 입력"
+                    />
+                  </div>
+                </div>
+                <div class="date">
+                  <span id="dt">여행 시작일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  /><br />
+                  <span id="dt">여행 종료일 선택</span>
+                  <input
+                    type="date"
+                    id="date"
+                    min="2023-03-15"
+                    max="2077-06-05"
+                    value="2023-03-15"
+                  />
+                </div>
+                <div class="trip_search">
+                  <span>항공편 검색하기</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--gallery_right end-->
+
+        <div class="main">
+          <div class="main_one">
+            # 새해맞이 PICK UP 해외 특별상품! &nbsp;<i
+              class="fa-solid fa-plane-up"
+            ></i>
+          </div>
+          <img src="images/sing.jpg" alt="sing" id="sing" />
+          <div class="main_one_text">
+            <ul>
+              <li>
+                MD픽 싱가포르 마리나 베이, 샌즈 벤쿨런호텔 자유여행 5일 / 6일
+              </li>
+              <li>
+                # 미식여행 + 가든스 바이 더 베이 + 야시장 탐방 + 가든랩 소디쇼
+                관람까지 패키지 특가!!
+              </li>
+            </ul>
+          </div>
+          <img src="images/japan.jpg" alt="sing" id="sing" />
+          <div class="main_one_text">
+            <ul>
+              <li>낭만의 일본, 매력 넘치는 도쿄 & 료칸 테마여행 4일</li>
+              <li>
+                # 겨울 온천여행 &nbsp;# 도쿄의 도심속으로 &nbsp;# 에어텔 &nbsp;#
+                롯폰기 ILUMINATION &nbsp;# 꽃놀이와 온천을 함께!
+              </li>
+            </ul>
+          </div>
+          <div class="main_two">
+            <p>
+              추천드리는 인기 여행지 &nbsp;<i class="fa-solid fa-heart"></i>
+            </p>
+            <ul>
+              <li># 동남아시아</li>
+              <li># 일본,중국</li>
+              <li># 남태평양</li>
+              <li># 유럽투어</li>
+              <li># 국내여행</li>
+            </ul>
+          </div>
+          <div class="main_in_one">
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main1.jpg" alt="main1" />
+                </div>
+                <p class="main_in_title">
+                  [추천/방콕&파타야] 왓아룬 사원 + 베이욕 스<br />카이호텔 5일
+                </p>
+                <p>779,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main2.jpg" alt="main2" />
+                </div>
+                <p class="main_in_title">
+                  [싱가포르] 자유쇼핑 + 특급호텔 / 전일관광 <br />
+                  15%할인혜택 5일
+                </p>
+                <p>649,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main3.jpg" alt="main3" />
+                </div>
+                <p class="main_in_title">
+                  [필리핀/보라카이] 헤난 크리스탈 리조트 / 호<br />캉스 힐링여행
+                  4일/5일/6일
+                </p>
+                <p>880,000원~</p>
+              </li>
+            </ul>
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main4.jpg" alt="main4" />
+                </div>
+                <p class="main_in_title">
+                  베트남/다낭 현지가이드 / 맛집여행 + 야시장 <br />3일
+                </p>
+                <p>940,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main5.jpg" alt="main5" />
+                </div>
+                <p class="main_in_title">
+                  캄보디아 앙코르와트 / 5성급호텔 + 기프트세<br />트 4일
+                </p>
+                <p>849,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main6.jpg" alt="main6" />
+                </div>
+                <p class="main_in_title">
+                  [대만/타이페이&단수이] 지우펀 + 101타워 + <br />대만맛집여행
+                  4일/5일
+                </p>
+                <p>789,000원~</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main_in_two">
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main7.jpg" alt="main7" />
+                </div>
+                <p class="main_in_title">
+                  [신년할인][올해인기상품] 야마가타 온천호텔<br />
+                  3일/4일
+                </p>
+                <p>579,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main8.jpg" alt="main8" />
+                </div>
+                <p class="main_in_title">
+                  시마네 + 마쓰에 성 패키지 여행 / 마슈다 4일 <br /><br />
+                </p>
+                <span class="discount">860,000원&nbsp;&nbsp;</span>
+                <span>731,000원~</span>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main9.jpg" alt="main9" />
+                </div>
+                <p class="main_in_title">
+                  오사카 신사이바스시지 / 오사카성 + 츠텐카쿠<br />
+                  + 우메다 5일/6일
+                </p>
+                <p>784,000원~</p>
+              </li>
+            </ul>
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main10.jpg" alt="main10" />
+                </div>
+                <p class="main_in_title">
+                  [출발확정] 상하이 예원 + 티엔즈팡/와이탄 <br />현지가이드 투어
+                  야경 4일/5일
+                </p>
+                <p>440,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main11.jpg" alt="main11" />
+                </div>
+                <p class="main_in_title">
+                  [인기상품] 베이징 / 자금성 / 펜타호텔 3일 <br /><br />
+                </p>
+                <p>549,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main12.jpg" alt="main12" />
+                </div>
+                <p class="main_in_title">
+                  베이징 만리장성 팔달령장성 / 케이블카 + 모노<br />레일 /
+                  거용관 4일/5일
+                </p>
+                <p>789,000원~</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main_in_three">
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main13.jpg" alt="main13" />
+                </div>
+                <p class="main_in_title">
+                  [프로모션상품] 괌 두짓타니 하얏트 호텔 + 음<br />료 쿠폰제공
+                  4일/5일
+                </p>
+                <p>879,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main14.jpg" alt="main14" />
+                </div>
+                <p class="main_in_title">
+                  [특급여행] 하와이/ 하얏트리젠시 + 특식제공 <br />+
+                  룸업그레이드 7일
+                </p>
+                <p>1,734,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main15.jpg" alt="main15" />
+                </div>
+                <p class="main_in_title">
+                  [사이판/오전출발] 허니문패키지 & 월드리조트 <br />+ 디럭스룸UP
+                </p>
+                <p>880,000원~</p>
+              </li>
+            </ul>
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main16.jpg" alt="main16" />
+                </div>
+                <p class="main_in_title">
+                  괌 올인클루시브 PIC+골드+로얄타워 디럭스 <br />+ 슈퍼서커스
+                  4일/5일
+                </p>
+                <p>1,440,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main17.jpg" alt="main17" />
+                </div>
+                <p class="main_in_title">
+                  [저녁출발] 사이판 크라운플라자 4일/5일<br /><br />
+                </p>
+                <p>844,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main18.jpg" alt="main18" />
+                </div>
+                <p class="main_in_title">
+                  [허니문 여행] 코모 말리푸시 몰디브 / 올인크루<br />시브
+                  5일/6일
+                </p>
+                <p>3,490,000원~</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main_in_four">
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main19.jpg" alt="main19" />
+                </div>
+                <p class="main_in_title">
+                  [9일여행 이탈리아 일주] 베네치아 / 로마 / 노<br />쇼핑 +
+                  와이너리 패키지 9일
+                </p>
+                <p>3,859,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main20.jpg" alt="main20" />
+                </div>
+                <p class="main_in_title">
+                  [스위스홀릭] 알프스산 마테호른뷰 월드체인<br />호텔 UP +
+                  리기산 클래식 열차 9일/10일
+                </p>
+                <p>4,590,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main21.jpg" alt="main21" />
+                </div>
+                <p class="main_in_title">
+                  [출발확정] 프랑스 / 미식여행 / 카르티에 라탱 <br />& 오페라 +
+                  생 샤펠 8일
+                </p>
+                <p>3,800,000원~</p>
+              </li>
+            </ul>
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main22.jpg" alt="main22" />
+                </div>
+                <p class="main_in_title">
+                  [동유럽3국 여행] 체코/오스트리아/헝가리 &<br />
+                  플젠맥주공장+판도르프아울렛 쇼핑 투어 9일
+                </p>
+                <p>2,650,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main23.jpg" alt="main23" />
+                </div>
+                <p class="main_in_title">
+                  [특별 패키지] 스페인/포르투갈 9일 가우디투<br />어 +
+                  마드리드축제<br />
+                </p>
+                <p>3,790,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main24.jpg" alt="main24" />
+                </div>
+                <p class="main_in_title">
+                  [영국완전일주10일] 잉글랜드/스코틀랜드/웨일<br />즈 + 아일랜드
+                  10일
+                </p>
+                <p>3,440,000원~</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main_in_five">
+            <ul class="main_in">
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main25.jpg" alt="main25" />
+                </div>
+                <p class="main_in_title">
+                  [그린트립][제주패키지] 항공 + 호텔 / 자유투어<br />
+                  3일/4일
+                </p>
+                <p>349,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main26.jpg" alt="main26" />
+                </div>
+                <p class="main_in_title">
+                  [출발확정] 서울 시내 투어 / 경복궁 + 남산타워 <br />
+                  + 명동 / 서머셋 팰리스 2일/3일
+                </p>
+                <p>590,000원~</p>
+              </li>
+              <li>
+                <div class="over_hidden">
+                  <img src="images/main27.jpg" alt="main27" />
+                </div>
+                <p class="main_in_title">
+                  [부산테마여행] 엑스더스카이 + 디오라마월드 <br />
+                  + 송도 스카이워크 + 동백섬 투어 2일/3일
+                </p>
+                <p>354,000원~</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="section_back">
+          <div class="turkey_slide">
+            <ul>
+              <li><img src="images/turkey1.jpg" alt="turkey1" /></li>
+              <li><img src="images/turkey2.jpg" alt="turkey2" /></li>
+              <li><img src="images/turkey3.jpg" alt="turkey3" /></li>
+              <li><img src="images/turkey4.jpg" alt="turkey4" /></li>
+            </ul>
+          </div>
+          <div class="turkey_text">
+            <img src="images/text.png" alt="text" />
+            <div class="turkey_text_sub">
+              <a href="../subpage1/sub1.html"
+                >자세히 보기 &nbsp;<span> ></span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="main_three">
+          <div class="main_three_text">
+            차가운 겨울, 어디로 갈까? 겨울 나라로!<span
+              ><img src="images/snow.png" alt="snow"
+            /></span>
+          </div>
+          <ul>
+            <li>
+              <img src="images/maintwo1.jpg" alt="maintwo1" />
+              <p class="maintwo_text_one">겨울왕국 프라하</p>
+              <p class="maintwo_text_two">
+                아름다운 설국 체코 프라하에서 겨울의 낭만을 즐겨보세요
+              </p>
+            </li>
+            <li>
+              <img src="images/maintwo2.jpg" alt="maintwo2" />
+              <p class="maintwo_text_one">속초의 겨울속으로</p>
+              <p class="maintwo_text_two">
+                설악산, 금강대교, 동명항까지 <br />
+                국내 겨울여행은 속초에서
+              </p>
+            </li>
+            <li>
+              <img src="images/maintwo3.jpg" alt="maintwo3" />
+              <p class="maintwo_text_one">아이슬란드 여행</p>
+              <p class="maintwo_text_two">
+                대자연이 살아 숨쉬는 아름다운 아이슬란드에서 가이드와 함께
+                떠나는 잊지 못할 여정
+              </p>
+            </li>
+            <li>
+              <img src="images/maintwo4.jpg" alt="maintwo4" />
+              <p class="maintwo_text_one">삿포로 in 온천</p>
+              <p class="maintwo_text_two">
+                겨울의 운치와 휴식을 함께하고 싶은 당신, 이번 겨울은 홋카이도
+                삿포로로 떠나자!
+              </p>
+            </li>
+            <li>
+              <img src="images/maintwo5.jpg" alt="maintwo5" />
+              <p class="maintwo_text_one">퀘벡 자유여행</p>
+              <p class="maintwo_text_two">
+                자연과 도시가 공존하는 설경의 퀘벡, 자유여행으로 나만의 추억을
+                쌓아보세요
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--main end-->
+      <!--section end-->
+      <footer>
+        <div class="footer_line"></div>
+
+        <div class="footer_wrap">
+          <ul class="footer_one">
+            <li class="footer_one_sub">
+              고객센터 운영안내<br /><br /><span>1592-4208</span>
+            </li>
+            <li class="footer_one_in">
+              연중무휴 09:00-18:00 (점심시간 12:00-13:00)<br />
+              주말/공휴일 포함, 한국시간 기준 <br />
+              외국인한국여행 상담번호 1592-4207 <br />
+              ※ 항공권 환불/변경은 평일 09:00-17:00 접수 가능
+            </li>
+            <li><span>자주 찾는 질문 ></span></li>
+          </ul>
+          <ul class="footer_two">
+            <li class="footer_one_sub">사이트 이용안내</li>
+            <ul>
+              <li class="footer_one_in">패밀리 사이트 <br /></li>
+              <li class="footer_one_in">예약취소 / 환불 관련 안내 <br /></li>
+              <li class="footer_one_in">그린트립 프로모션 <br /></li>
+              <li class="footer_one_in">마일리지 적립 / 사용 안내 <br /></li>
+              <li class="footer_one_in">여행정보 사이트 <br /></li>
+              <li class="footer_one_in">렌터카 대여 서비스 <br /></li>
+            </ul>
+          </ul>
+          <ul class="footer_three">
+            <li class="footer_one_sub">공지사항</li>
+            <ul class="notice">
+              <li>
+                [공지] 해외여행 규정 변경 관련 안내...<span>2023-03-12</span>
+              </li>
+              <li>
+                [해외] 동남아시아 방역 강화 정책에 ...<span>2023-02-21</span>
+              </li>
+              <li>
+                [개인정보보호] 개인정보 처리방침 변 ..<span>2023-02-03</span>
+              </li>
+              <li>
+                [공지] 마일리지 사용 기한 만료 안내 ...<span>2023-01-07</span>
+              </li>
+            </ul>
+            <ul class="footer_four">
+              <li class="footer_one_sub">패밀리 사이트</li>
+              <ul>
+                <li>
+                  <img src="images/icon1.png" alt="icon1" />
+                  <span>관광상품구매</span>
+                </li>
+                <li>
+                  <img src="images/icon2.png" alt="icon2" />
+                  <span>크루즈여행</span>
+                </li>
+                <li>
+                  <img src="images/icon3.png" alt="icon3" />
+                  <span>여행보험서비스</span>
+                </li>
+                <li>
+                  <img src="images/icon4.png" alt="icon4" />
+                  <span>리빙스테이호텔</span>
+                </li>
+                <li>
+                  <img src="images/icon5.png" alt="icon5" />
+                  <span>그린에어라인</span>
+                </li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+        <p class="footer_line_two"></p>
+        <div class="footer_under">
+          <ul>
+            <li>회사소개</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>여행약관</li>
+            <li>여행보험</li>
+            <li>마케팅제휴문의</li>
+            <li>대리점개설문의</li>
+            <li>온라인제휴안내</li>
+          </ul>
+        </div>
+        <p class="footer_line_three"></p>
+        <div class="reward">
+          <img src="images/reward.png" alt="reward" />
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright © 2023 GreenTrip.com Travel Pte. Ltd. All rights reserved.
+            <br />사이트 운영자: GreenTrip.com Travel Pte. Ltd. (라이선스 번호
+            01394, 대표 강주현)<br />
+            1 Harbourfront Ave, #03-12/13, Seoul green Tower, Southkorea
+            (079403)
+            <br />고객센터: 한국 1592-4208 해외 +82 2 3142 8253<br /><br /><br />
+            <span
+              >이 사이트는 포트폴리오 용도로 제작된 가상의 사이트이며<br />
+              사이트 제작에 사용된 이미지나 로고는 각 사이트에 저작권이
+              있습니다.
+            </span>
+          </p>
+        </div>
+      </footer>
+      <!--footer end-->
+
+      <div id="side_banner_left">
+        <a href="#"><img class="sub_one" src="images/sub1.png" alt="sub1" /></a
+        ><br />
+        <div class="wrapside">
+          <div class="slide_sidebanner">
+            <ul>
+              <li>
+                <a href="#"><img src="images/sub2.png" alt="sub2" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/sub3.png" alt="sub2" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/sub4.png" alt="sub2" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn_cover">
+          <img src="images/left.png" alt="left" class="btn_prev" />
+          <img src="images/right.png" alt="right" class="btn_next" />
+        </div>
+      </div>
+      <div id="side_banner_right">
+        <ul>
+          <li><span>∧</span></li>
+          <li><img src="images/righticon1.png" alt="" /></li>
+          <li><img src="images/righticon2.png" alt="" /></li>
+          <li><img src="images/righticon3.png" alt="" /></li>
+        </ul>
+      </div>
+      <!--side_banner end-->
+    </div>
+  </body>
+</html>
